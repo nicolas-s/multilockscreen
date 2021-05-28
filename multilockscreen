@@ -109,7 +109,7 @@ lock() {
 		--radius=20 --ring-width=4 --verif-text='' --wrong-text='' --wrong-color="$nocolor" \
 		--verif-color="$verifcolor" --time-color="$timecolor" --date-color="$datecolor" \
 		--time-font="$font" --date-font="$font" --layout-font="$font" --verif-font="$font" --wrong-font="$font" \
-		--noinputtext='' --force-clock --pass-media-keys --pass-screen-keys --pass-power-keys \
+		--noinput-text='' --force-clock --pass-media-keys --pass-screen-keys --pass-power-keys \
 		"${lockargs[@]}"
 }
 
